@@ -1,5 +1,3 @@
-//TEST PUSH METHOD
-
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
@@ -60,8 +58,7 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
   
 // Deliverable 1: 2. Use d3.json to load the samples.json file 
-  d3.json("samples.json").then((data) => {
-    console.log(data);
+d3.json("samples.json").then((data) => {
 
 // Deliverable 1: 3. Create a variable that holds the samples array.
 var samplesArray = data.names;

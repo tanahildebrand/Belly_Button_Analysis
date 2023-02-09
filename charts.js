@@ -108,7 +108,9 @@ console.log(wfreq)
 
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
-      title : "Top 10 Bacteria Cultures Found"
+      title : "Top 10 Bacteria Cultures Found",
+      xaxis: {title: "Number of Cultures"},
+      yaxis: {title: "Sample IDs"}
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout.
